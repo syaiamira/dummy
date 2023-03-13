@@ -22,9 +22,6 @@ const environment = process.env.NODE_ENV;
 // }
 
 // Charles push main
-// add charles feature-charles
-
-// add changes to feature-develop
 const queryClient = new QueryClient();
 
 function App() {
@@ -35,6 +32,7 @@ function App() {
           <BrowserRouter history={history}>
             <Theme>
               <Layout />
+              <p>Hello World</p>
             </Theme>
           </BrowserRouter>
         </QueryClientProvider>
